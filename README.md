@@ -25,6 +25,10 @@ cd DIKUGames
 
 git submodule update --init --recursive
 
+If it doesn't work, try this:
+
+git submodule add git@github.com:diku-dk/DIKUArcade.git DIKUArcade
+
 This will fetch the contents of any submodules and ensure that they are up to date.
 
 ### 3. Run the Project:
